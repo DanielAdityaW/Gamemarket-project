@@ -1,0 +1,36 @@
+// var myObj;
+// myObj=
+{
+	"namagame":[
+		{"nama":"GTA V", "harga":"Rp 150.000,00", "Deskripsi":"Game ini merupakan game yang bertempat di Amerika"},
+		{"nama":"Heroes & Generals", "harga":"Rp 0,00", "Deskripsi":"Game ini menyajikan perperangan perang dunia II dengan berbagai senjata dan angkatan perang"},
+		{"nama":"Battlefield 1", "harga":"Rp 300.000,00", "Deskripsi":"Salah satu game perang dunia I dengan grafik terkini"}
+	]
+}
+// <!DOCTYPE html>
+// <html>
+// <body>
+
+// <p>Looping through arrays inside arrays.</p>
+
+// <p id="demo"></p>
+
+// <script>
+// var myObj, i, j, x = "";
+// myObj = {
+//   "namagame":[
+// 		{"nama":"GTA V", "harga":"Rp 150.000,00", "Deskripsi":"Game ini merupakan game yang bertempat di Amerika"},
+// 		{"nama":"Heroes & Generals", "harga":"Rp 0,00", "Deskripsi":"Game ini menyajikan perperangan perang dunia II dengan berbagai senjata dan angkatan perang"},
+// 		{"nama":"Battlefield 1", "harga":"Rp 300.000,00", "Deskripsi":"Salah satu game perang dunia I dengan grafik terkini"}
+// 	]
+// }
+// for (i in myObj.namagame) {
+//   x += "<h2>" + myObj.namagame[i].nama + "</h2>";
+//   x += "<h2>" + myObj.namagame[i].harga + "</h2>";
+//   x += "<h2>" + myObj.namagame[i].Deskripsi + "</h2>";
+// }
+// document.getElementById("demo").innerHTML = x;
+// </script>
+
+// </body>
+// </html>

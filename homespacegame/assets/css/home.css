@@ -1,0 +1,138 @@
+body {
+    background-image: url("../../img/BACKGROUND.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+footer{
+    display: block;
+    background-color: rgba(102, 0, 133, 0.938);
+    color: white;
+    height: 170px;
+    width: 100%;
+}
+
+.footer-left{
+	float: left;
+    margin: 0% 3%;
+}
+.footer-right{
+	float: right;
+	margin: 0% 3%;
+}
+footer span{
+	display: grid;
+}
+.carousel-inner{
+    width: 80%;
+    margin: auto;
+}
+.nempel{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+.warnabutton{
+    background-color:rgba(173, 21, 219, 0.993);
+}
+.bg-dark{
+    background-color: black;
+}
+
+.container_pt-5_pb-4{
+    background-color: rgba(243, 243, 243, 0.13);
+    padding: 1%;
+    width: 80%;
+    margin: auto;
+    border-radius: 11px;
+}
+.form-control{
+    background-color: rgba(32, 32, 32, 0.267);
+    background-attachment: fixed;
+}
+.card{
+    padding: 3%;
+    width: auto;
+    margin: auto;
+    background-color: rgba(243, 243, 243, 0.13);
+    border-radius: 11px;
+}
+.col-md-2{
+    margin: auto;
+    width: auto;
+}
+.carousel-control-prev{
+    margin-left : 70px;
+}
+.carousel-control-next{
+    margin-right: 70px;
+
+}
+
+.teksputih{
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+.teksputih1{
+    color:white;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 2em;
+}
+.teksputih2{
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+.teksputih3{
+    font-weight: 100;
+    color : white ;
+    font-size: 20px;
+}
+.teksputih4{
+    font-size: 25px;
+    color: white;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+.container2{
+    width: 100%;
+    
+    background-image: url("../../img/freeplay.jpg");
+    background-size: 100%;
+    background-blend-mode: lighten;
+    
+}
+
+.baru{
+    
+}
+.jumbotron2 {
+    background-color: #e9ecef;
+}
+
+.container_pt-2_pb-4_pl-5{
+    margin: auto;
+    width: 80%;
+    padding: 1.2%;
+}
+.containerx{
+    margin: auto;
+    width: 80%;
+}
+
+.latarhitam {
+    padding: 2%;
+    margin: auto;
+    background-color:rgba(243, 243, 243, 0.13);
+    border-radius: 11px;
+}
+
+.latarabu{
+    width: auto;
+    padding: 1%;
+    background-color: rgba(243, 243, 243, 0.13);
+    border-radius: 11px;
+}

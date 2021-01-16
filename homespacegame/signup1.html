@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign_Up</title>
+
+    <head>
+        <style>
+            <style>a {
+                text-decoration: none;
+            }
+            
+            body {
+                background-image: url("../homespacegame/img/BACKGROUND.png");
+                background-repeat: no-repeat;
+            }
+            
+            label {
+                font-family: "Raleway", sans-serif;
+                font-size: 11pt;
+            }
+            
+            #forgot-pass {
+                color: #2dbd6e;
+                font-family: "Raleway", sans-serif;
+                font-size: 10pt;
+                margin-top: 3px;
+                text-align: right;
+            }
+            
+            #card {
+                background: -webkit-linear-gradient(left, #fbfbfb, #f4d1ff);
+                border-radius: 25px;
+                box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+                height: 575px;
+                margin: 2rem auto 2rem auto;
+                width: 340px;
+            }
+            
+            #card-content {
+                padding: 12px 44px;
+            }
+            
+            #card-title {
+                font-family: "Raleway Thin", sans-serif;
+                letter-spacing: 4px;
+                padding-bottom: 23px;
+                padding-top: 13px;
+                text-align: center;
+                color: rgb(207, 0, 207);
+            }
+            
+            #signup {
+                color: #2dbd6e;
+                font-family: "Raleway", sans-serif;
+                font-size: 10pt;
+                margin-top: 16px;
+                text-align: center;
+            }
+            
+            #submit-btn {
+                background: -webkit-linear-gradient(right, #7600a5, #c497f8);
+                border: none;
+                border-radius: 21px;
+                box-shadow: 0px 1px 8px #7600a5;
+                cursor: pointer;
+                color: white;
+                font-family: "Raleway SemiBold", sans-serif;
+                height: 42.3px;
+                transition: 0.25s;
+                width: 130px;
+                margin-left: 10%;
+            }
+            
+            #submit-btn:hover {
+                box-shadow: 0px 1px 18px #a06ef1;
+            }
+            
+            #back-btn {
+                background: -webkit-linear-gradient(left, #7600a5, #c497f8);
+                border: none;
+                border-radius: 21px;
+                box-shadow: 0px 1px 8px #7600a5;
+                cursor: pointer;
+                color: white;
+                font-family: "Raleway SemiBold", sans-serif;
+                height: 42.3px;
+                margin-top: 20px;
+                transition: 0.25s;
+                width: 130px;
+                text-align: center;
+            }
+            
+            #back-btn:hover {
+                box-shadow: 0px 1px 18px #a06ef1;
+            }
+            
+            .form {
+                align-items: left;
+                display: flex;
+                flex-direction: column;
+                color: rgb(90, 3, 90);
+            }
+            
+            .form-border {
+                background: -webkit-linear-gradient(right, #8d01ff, #bb91ff);
+                height: 1px;
+                width: 100%;
+            }
+            
+            .form-content {
+                background: -webkit-linear-gradient(left, #fbfbfb, #f4d1ff);
+                border: none;
+                outline: none;
+                padding-top: 14px;
+            }
+            
+            .underline-title {
+                background-image: url("file:///D:/file html/BC.JPG");
+                height: 2px;
+                margin: -1.1rem auto 0 auto;
+                width: 89px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div id="card">
+            <div id="card-content">
+                <div id="card-title">
+                    <h2>SIGN UP</h2>
+                    <div class="underline-title"></div>
+                </div>
+            </div>
+            <div class="container">
+                <form method="post" class="form">
+                    <label  style="margin-left: 15%; margin-top: 1%;" for="user-name">Name</label>
+                    <input  style="margin-left: 15%; margin-bottom: 2%; margin-right: 15%;" id="user-name" class="form-content" type="name" name="name" required/>
+                    <div    style="margin-left:15%; width: 235px;"class="form-border"></div>
+                    <label  style="margin-left: 15%; margin-top: 2%;"for="user-email">Email</label>
+                    <input  style="margin-left: 15%; margin-bottom: 2%; margin-right: 15%;" id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
+                    <div    style="margin-left:15%; width: 235px;"class="form-border"></div>
+                    <label  style="margin-left: 15%; margin-top: 2%;"for="user-password">Password</label> 
+                    <input  style="margin-left: 15%; margin-bottom: 2%; margin-right: 15%;" id="user-password" class="form-content" type="password" name="password" required />
+                    <div    style="margin-left:15%; width: 235px;" class="form-border"></div>
+                    <label  style="margin-left: 15%; margin-top: 2%; "for="psw-repeat">Repeat Password</label>
+                    <input  style="margin-left: 15%; margin-bottom: 2%; margin-right: 15%;"id="user-password" class="form-content" type="password" name="passwordrepeat" required />
+                    <div    style="margin-left:15%; width: 235px;"class="form-border"></div>
+            </div>
+            <h5 style="color:rgb(90, 3, 90);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><input style="margin-left: 15%; "type="checkbox" checked="checked" name="remember"> Remember Me</h5>
+
+            <p  style="color:rgb(90, 3, 90);margin-left: 15%; margin-top: 2%; margin-right: 15%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">By creating an account you agree to our <a href="#" style="color:rgb(255, 30, 255)">Terms & Privacy.</a></p>
+
+            <div class="clearfix">
+                <input id="submit-btn" type="submit" name="submit" value="Submit"/>
+                <a href="../homespacegame/log.html" style="margin-left: 2%;" >
+                    <input id="back-btn" type="button" name="back" value="Back"/>
+                </a>
+    </body>
+
+</html>

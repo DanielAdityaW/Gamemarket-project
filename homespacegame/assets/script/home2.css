@@ -1,0 +1,244 @@
+/*Halaman Buy*/
+/*Footer*/
+footer{
+    display: block;
+    background-color: rgba(102, 0, 133, 0.938);
+    color: white;
+    height: 170px;
+    width: 100%;
+}
+.carousel-inner{
+    width: auto;
+    margin: auto;
+}
+.form-control{
+    background-color: rgba(32, 32, 32, 0.267);
+    background-attachment: fixed;
+}
+.carousel-control-prev{
+    margin-left: 0;
+}
+.carousel-control-next{
+    margin-right: 0;
+}
+.sticky{
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+  	z-index: 500;
+}
+.footer-left{
+	float: left;
+    margin: 0% 3%;
+}
+.footer-right{
+	float: right;
+	margin: 0% 3%;
+}
+footer span{
+	display: grid;
+}
+/*Body*/
+.container {
+    margin-block-start: 4%;
+    padding: 1%;
+    margin: auto;
+}
+.whitespace {
+	align-items: stretch;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover, a:active{
+	text-decoration: none;
+	color: white;
+	opacity: 80%;
+}
+/*Pengganti Carousel Recommend*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/*Slider Button*/
+.buttonprev{
+    width: 60%;
+    margin-right: 40px;
+}
+.buttonnext{
+	width: 60%;
+    margin-left: 39px
+}
+
+
+.buyrow{
+    display: grid;
+    color: white;
+    width: 200%;
+    margin: auto;
+    padding: 1%;
+}
+.buycontainer {
+    background-color: rgba(243, 243, 243, 0.13);
+    padding: 1%;
+    width: 120%;
+    margin: auto;
+    
+}
+.recommend{
+    width: 124%;
+    margin-inline-start: -12.5%;
+}
+.recommend img{
+    height: 206px;
+    width: 50%!important;
+}
+.deskripsi{
+    color: white;
+    background-color: #333;
+    width: 50%;
+}
+.deskripsi div{
+    margin:2%;
+    text-align: justify;
+}
+#recomcarous{
+    display: inline-flex;
+}
+.buydesign{
+    margin-block-start: -10%;
+    margin-inline-start: 80%;
+}
+.button{
+	background-color: rgba(173, 21, 219, 0.993);
+    color: white;
+}
+.wishlist{
+    background-color: rgb(145, 78, 158);
+    color: white;
+}
+.cart{
+    background-color: rgb(138, 2, 201);
+    color: white;
+    
+}
+.buybutton:hover{
+	background-color: #666;
+}
+.bundle{
+    text-align: left;
+    height: auto;
+    background-color: rgba(243, 243, 243, 0.13);
+    margin-block-end: 0.3%;
+    margin-inline-end: 100px;
+    width: 60%;
+    padding: 0 20px;
+    display: inline-flex;
+    border-radius: 11px;
+}
+.recommend{
+    margin: auto;
+    padding: 4%;
+    height: auto;
+    background-color: rgba(248, 248, 248, 0.13);
+    width: 120%;
+    border-radius: 11px;
+}
+.recomentext{
+    color: white;
+    font-size: 20px;
+}
+.aboutrgame{
+    background-color: rgba(123, 24, 153, 0.349);
+    margin: auto;
+    
+}
+.bundle img{
+	height: 100px;
+    margin-left: -8.5%;
+}
+.bundleset1{
+    margin-top: 2%;
+    margin-inline-start: 0%;
+    padding: 0%;
+    line-height: 2em;
+}
+.bundleset2{
+    margin-top: 5%;
+    margin-inline-start: 0%;
+    padding: 0%;
+}
+.ButtonBundle{
+    color: white;
+    background-color: rgba(173, 21, 219, 0.993);
+    text-align: center;
+}
+.ButtonBundle:hover{
+    opacity: 100%;
+}
+.panelbuy{
+	float: right;
+    width: 90%;
+    height: 965px;
+    background-color:rgba(243, 243, 243, 0.13);
+    color: white;
+    font-weight: 100;
+    margin: auto;
+    padding: 1%;
+    font-size: 15px;
+    border-radius: 11px;
+}
+.aboutx{
+    background-color: rgba(123, 24, 153, 0.349);
+    padding: 1%;
+    margin: auto;
+    border-radius: 7px;
+}
+.abouty{
+    background-color: rgba(123, 24, 153, 0.349);
+    padding: 1%;
+    margin: auto;
+    border-radius: 7px;
+}
+.panelbuy div{
+	margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    
+}
+.bundle_view{
+	font-size: 14px;
+    background-color: #333;
+    color: white;
+    width: 15%;
+    height: 35px;
+    margin-bottom: 4%;
+}
+/*<a href='https://www.freepik.com/vectors/facebook'>Facebook vector created by Creative_hat - www.freepik.com</a>*/
+#row-bundle {
+   width: 140%;
+
+}
